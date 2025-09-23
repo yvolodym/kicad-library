@@ -1,2 +1,1 @@
-# kicad-library
-Libraries for elements at home
+# Espressif KiCad Library
