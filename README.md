@@ -1,1 +1,1 @@
-# Espressif KiCad Library
+# Electrical KiCad Library
