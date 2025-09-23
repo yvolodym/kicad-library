@@ -17,6 +17,7 @@
             "web": "https://github.com/yvolodym/kicad-library"
         }
     },
+    "license": "CC-BY-SA-4.0",
     "resources": {
         "homepage": "https://github.com/yvolodym/kicad-library"
     },
