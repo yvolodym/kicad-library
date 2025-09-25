@@ -14,7 +14,7 @@
 				)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "U8205A"
 			(at 0 0 0)
 			(effects
 				(font
@@ -31,7 +31,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.umw-ic.com/static/pdf/17bbbd598f6f936a3c6d46378372fe52.pdf"
 			(at 0 0 0)
 			(effects
 				(font
@@ -51,8 +51,8 @@
 		)
 		(symbol "8205A_0_1"
 			(rectangle
-				(start -4.826 -1.524)
-				(end 4.826 -13.462)
+				(start -5.08 -1.27)
+				(end 5.08 -13.97)
 				(stroke
 					(width 0)
 					(type default)
@@ -64,15 +64,15 @@
 		)
 		(symbol "8205A_1_1"
 			(text "-"
-				(at 0 -7.366 0)
+				(at 0 -7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(pin output line
-				(at -7.366 -3.556 0)
+			(pin bidirectional line
+				(at -7.62 -3.81 0)
 				(length 2.54)
 				(name "S1"
 					(effects
@@ -89,8 +89,8 @@
 					)
 				)
 			)
-			(pin input line
-				(at -7.366 -7.62 0)
+			(pin output line
+				(at -7.62 -7.62 0)
 				(length 2.54)
 				(name "D1"
 					(effects
@@ -107,8 +107,8 @@
 					)
 				)
 			)
-			(pin output line
-				(at -7.366 -11.43 0)
+			(pin bidirectional line
+				(at -7.62 -11.43 0)
 				(length 2.54)
 				(name "S2"
 					(effects
@@ -126,7 +126,7 @@
 				)
 			)
 			(pin input line
-				(at 7.366 -3.556 180)
+				(at 7.62 -3.81 180)
 				(length 2.54)
 				(name "G1"
 					(effects
@@ -143,8 +143,8 @@
 					)
 				)
 			)
-			(pin input line
-				(at 7.366 -7.62 180)
+			(pin output line
+				(at 7.62 -7.62 180)
 				(length 2.54)
 				(name "D2"
 					(effects
@@ -162,7 +162,7 @@
 				)
 			)
 			(pin input line
-				(at 7.366 -11.43 180)
+				(at 7.62 -11.43 180)
 				(length 2.54)
 				(name "G2"
 					(effects
