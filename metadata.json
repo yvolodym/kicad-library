@@ -23,6 +23,24 @@
     },
     "versions": [
         {
+            "version": "1.0.7",
+            "status": "stable",
+            "kicad_version": "9.0.0",
+            "download_sha256": "e2f787516b0d0dd2975e8757e82de8cf4c1f40007e95d8894c0ac87e8eeb7d29",
+            "download_size": 18797,
+            "download_url": "https://github.com/yvolodym/kicad-library/releases/download/v1.0.7/yvolodym-kicad-addon.zip",
+            "install_size": 121710
+        },
+        {
+            "version": "1.0.6",
+            "status": "stable",
+            "kicad_version": "9.0.0",
+            "download_sha256": "438ca4dd9ffd4d5c7b373e4b948e3d2b50b301ad754e06ab52dda4869c6e99f1",
+            "download_size": 13389,
+            "download_url": "https://github.com/yvolodym/kicad-library/releases/download/v1.0.6/yvolodym-kicad-addon.zip",
+            "install_size": 64372
+        },
+        {
             "version": "1.0.5",
             "status": "stable",
             "kicad_version": "9.0.0",
