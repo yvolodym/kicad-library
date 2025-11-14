@@ -187,14 +187,14 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 0 0 0)
+			(at 0 1.778 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "CH340B"
 			(at 0 0 0)
 			(effects
 				(font
@@ -252,7 +252,7 @@
 			)
 		)
 		(symbol "CH340B_1_1"
-			(pin power_out line
+			(pin power_in line
 				(at -8.89 -3.81 0)
 				(length 2.54)
 				(name "GND"
@@ -555,7 +555,7 @@
 				)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "ESP32-WROVER-IB"
 			(at 0 0 0)
 			(effects
 				(font
@@ -563,7 +563,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PCM_yvolodym:ESP32-WROVER-B"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1269,15 +1269,15 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at -0.762 15.24 0)
+			(at 0 17.526 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" ""
-			(at 0 0 0)
+		(property "Value" "Joystick PS5"
+			(at 0.254 15.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1505,7 +1505,7 @@
 					)
 				)
 			)
-			(pin power_out line
+			(pin power_in line
 				(at 7.62 -2.54 180)
 				(length 2.54)
 				(name "SHIELD"
@@ -1523,7 +1523,7 @@
 					)
 				)
 			)
-			(pin power_out line
+			(pin power_in line
 				(at 7.62 -5.08 180)
 				(length 2.54)
 				(name "SHIELD"
@@ -1541,7 +1541,7 @@
 					)
 				)
 			)
-			(pin power_out line
+			(pin power_in line
 				(at 7.62 -7.62 180)
 				(length 2.54)
 				(name "SHIELD"
@@ -1559,7 +1559,7 @@
 					)
 				)
 			)
-			(pin power_out line
+			(pin power_in line
 				(at 7.62 -10.16 180)
 				(length 2.54)
 				(name "SHIELD"
