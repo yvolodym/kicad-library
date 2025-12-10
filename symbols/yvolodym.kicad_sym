@@ -1328,14 +1328,14 @@
 			(pin passive line
 				(at -7.62 11.43 0)
 				(length 2.54)
-				(name "V"
+				(name "V+"
 					(effects
 						(font
 							(size 0.762 0.762)
 						)
 					)
 				)
-				(number "V2"
+				(number "V1"
 					(effects
 						(font
 							(size 0.762 0.762)
@@ -1346,14 +1346,14 @@
 			(pin passive line
 				(at -7.62 8.89 0)
 				(length 2.54)
-				(name "V+"
+				(name "V"
 					(effects
 						(font
 							(size 0.762 0.762)
 						)
 					)
 				)
-				(number "V1"
+				(number "V2"
 					(effects
 						(font
 							(size 0.762 0.762)
@@ -1382,14 +1382,14 @@
 			(pin passive line
 				(at -7.62 1.27 0)
 				(length 2.54)
-				(name "H"
+				(name "H+"
 					(effects
 						(font
 							(size 0.762 0.762)
 						)
 					)
 				)
-				(number "H2"
+				(number "H1"
 					(effects
 						(font
 							(size 0.762 0.762)
@@ -1400,14 +1400,14 @@
 			(pin passive line
 				(at -7.62 -1.27 0)
 				(length 2.54)
-				(name "H+"
+				(name "H"
 					(effects
 						(font
 							(size 0.762 0.762)
 						)
 					)
 				)
-				(number "H1"
+				(number "H2"
 					(effects
 						(font
 							(size 0.762 0.762)
