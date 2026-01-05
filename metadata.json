@@ -23,6 +23,15 @@
     },
     "versions": [
         {
+            "version": "1.0.10",
+            "status": "stable",
+            "kicad_version": "9.0.0",
+            "download_sha256": "c97f58415cab16032aa2cbe0fcfd91f105cd9cf7614fbdda067ce4ff1f06cb7f",
+            "download_size": 23122,
+            "download_url": "https://github.com/yvolodym/kicad-library/releases/download/v1.0.10/yvolodym-kicad-addon.zip",
+            "install_size": 145162
+        },
+        {
             "version": "1.0.9",
             "status": "stable",
             "kicad_version": "9.0.0",
