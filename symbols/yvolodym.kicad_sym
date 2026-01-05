@@ -1284,7 +1284,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_yvolodym.Joystick_Analog"
+		(property "Footprint" "PCM_yvolodym:Joystick_Analog"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1600,7 +1600,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_yvolodym.Joystick_PS5"
+		(property "Footprint" "PCM_yvolodym:Joystick_PS5"
 			(at 0 0 0)
 			(effects
 				(font
