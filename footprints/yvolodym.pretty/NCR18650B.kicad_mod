@@ -1,0 +1,143 @@
+(footprint "NCR18650B"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -6.4 -3.3 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "21912e3e-641e-4b1c-81b2-4a0bddbad98a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "NCR18650B"
+		(at -4.85 -1.7 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "9460b3a7-757d-4817-b100-5c85fdda0697")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0.15 -0.35 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "73bb501d-9680-4619-8f0e-070cf4608be4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0.15 -0.35 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "61cedfe7-2ec1-407d-849b-1d6f2ff14feb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -38.55 -10.5)
+		(end 38.55 10.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "2986f7b2-177a-496c-b7c3-aa4a9c2e4c91")
+	)
+	(fp_text user "-"
+		(at -37.25 4.3 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "81935bcf-8c77-4139-bbe8-ee1751ee0fcf")
+		(effects
+			(font
+				(face "Arial")
+				(size 3 3)
+				(thickness 0.6)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(render_cache "-" 0
+			(polygon
+				(pts
+					(xy -37.014244 2.992791) (xy -37.014244 2.418332) (xy -35.883094 2.418332) (xy -35.883094 2.992791)
+				)
+			)
+		)
+	)
+	(fp_text user "+"
+		(at 35.2 5.2 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "9b0a9e3c-cff1-4296-8de0-37502347da94")
+		(effects
+			(font
+				(face "Arial")
+				(size 3 3)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(render_cache "+" 0
+			(polygon
+				(pts
+					(xy 36.161156 4.256224) (xy 36.161156 3.482463) (xy 35.374206 3.482463) (xy 35.374206 2.954898)
+					(xy 36.161156 2.954898) (xy 36.161156 2.181137) (xy 36.68579 2.181137) (xy 36.68579 2.954898) (xy 37.474755 2.954898)
+					(xy 37.474755 3.482463) (xy 36.68579 3.482463) (xy 36.68579 4.256224)
+				)
+			)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at -3.45 0.15 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "3e608120-cc25-467a-a14d-1b9439cd60de")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole oval
+		(at 36.3 0.05)
+		(size 3 3)
+		(drill 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "761ddc65-8be1-4a7b-a507-cae5ec55dd9a")
+	)
+	(pad "2" thru_hole oval
+		(at -36.5 0)
+		(size 3 3)
+		(drill 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "d344b843-661e-4816-aee6-5571112f76fc")
+	)
+	(embedded_fonts no)
+)
