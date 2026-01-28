@@ -1180,6 +1180,47 @@
 		(layer "Eco1.User")
 		(uuid "9f76b102-7090-4a24-87bb-d673bc0340ef")
 	)
+	(fp_line
+		(start -4.65 -12.250007)
+		(end 4.6 -12.250007)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "4831811e-7b68-4e49-9626-7b9469b52c74")
+	)
+	(fp_line
+		(start -4.65 -10.150007)
+		(end -4.65 -12.250007)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "ea8648ba-1982-4995-9e1b-b574e3101f63")
+	)
+	(fp_line
+		(start 4.6 -12.250007)
+		(end 4.6 -10.150007)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "e549cd2e-1b59-4919-98b5-742ca84d94a5")
+	)
+	(fp_circle
+		(center 0 -0.000007)
+		(end 1.55 -11.050007)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "ab8305c9-412b-4088-ac98-4d8f67b998d7")
+	)
 	(fp_text user "H1"
 		(at -2.54 -2.540007 0)
 		(unlocked yes)
