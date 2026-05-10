@@ -4,68 +4,42 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-This is a KiCad library repository containing symbols, footprints, and 3D models for various electronic components that were needed but missing in the author's design work. The library is distributed as a KiCad Package Manager (PCM) addon.
+A personal KiCad library distributed as a KiCad Package Manager (PCM) addon. It bundles symbols and footprints for parts the author needed but did not find in stock KiCad libraries. Targets KiCad 9.0.0+. The `3dmodels/yvolodym.3dshapes/` directory exists but is currently empty — no footprint references a 3D model.
 
-## Repository Structure
+## Documentation languages
 
-- `symbols/` - KiCad symbol libraries (.kicad_sym files)
-- `footprints/` - KiCad footprint libraries (.pretty directories with .kicad_mod files)  
-- `3dmodels/` - 3D model files for components (.3dshapes directory)
-- `resources/` - Additional resources like icons
-- `package.py` - Python script for packaging releases
-- `metadata.json` - PCM addon metadata with version history
-- `metadata.template.json` - Template for generating metadata
+`README.md` is in **German** (end-user facing). Internal docs (this file, `release-kicad-addons.md`) and `metadata*.json` strings are in **English**. Keep these conventions when editing.
 
-## Common Commands
+## Library Layout
 
-### Creating a Release
-```bash
-python package.py [version]
-```
-- Interactive version input if no argument provided
-- Generates release zip in `build/` directory
-- Updates `metadata.json` with new release info
-- Version format: major[.minor[.patch]] (e.g., 1.0.3)
+There is **one** library, not many — a single triplet of files keyed off the `yvolodym` name:
 
-### Manual Release Process
-1. Run `python package.py` with desired version
-2. Create GitHub release with same version tag  
-3. Upload generated zip file from `build/` directory
-4. Fork KiCad addon metadata repository on GitLab
-5. Submit metadata.json and icon.png via merge request
+- `symbols/yvolodym.kicad_sym` — all symbols live in this one file.
+- `footprints/yvolodym.pretty/` — all footprints (`.kicad_mod`) live here.
+- `3dmodels/yvolodym.3dshapes/` — slot for `.step`/`.wrl` files (currently empty).
 
-## KiCad Library Architecture
+The library nickname for symbols' `Footprint` property is `PCM_yvolodym:` — that is the auto-registered nickname when KiCad installs the addon via PCM. When adding a part, keep symbol/footprint/3D-model names aligned and prefix the symbol's footprint reference with `PCM_yvolodym:`.
 
-### File Organization
-- **Symbol files**: `.kicad_sym` format containing electrical symbols
-- **Footprint libraries**: `.pretty` directories containing `.kicad_mod` footprint files
-- **3D models**: Stored in `.3dshapes` directory structure
-- **Naming convention**: Uses `yvolodym` prefix for library organization
+## Release Pipeline
 
-### Metadata Management
-- PCM schema v1 compliant metadata structure
-- Automatic version tracking with SHA256 checksums
-- Download URLs point to GitHub releases
-- License: CC-BY-SA-4.0
+The PCM addon is built and published in two places: a GitHub release (binary zip) and the KiCad PCM metadata repo on GitLab (so it appears in the PCM UI). Both must be updated for a release to be visible to users.
 
-## Automation
+### `package.py`
 
-### GitHub Actions (.github/workflows/release.yml)
-- Triggers on GitHub release creation
-- Automatically runs `package.py` with release tag
-- Uploads built addon zip as release asset
-- Commits updated `metadata.json` to main branch
+`python package.py [version]` (Python 3, no third-party deps) does:
 
-## Development Guidelines
+1. Validates `version` against `^\d{1,4}(\.\d{1,4}(\.\d{1,6})?)?$` and refuses duplicates already present in `metadata.json`'s `versions` array.
+2. Zips `3dmodels/`, `footprints/`, `symbols/`, `resources/` into `build/yvolodym-kicad-addon.zip`, embedding a stripped-down `metadata.json` (single-version entry, no download fields) **inside** the zip — PCM requires this internal copy.
+3. Rewrites the top-level `metadata.json` by **prepending** a full version record (sha256, size, install size, GitHub download URL) to the existing `versions` array. Older entries are preserved.
 
-### Library Standards
-- Follow KiCad library conventions for naming and organization
-- Footprints designed per component datasheet land pattern recommendations
-- Create components that fill gaps in existing libraries
-- Maintain compatibility with KiCad 9.0.0+
+`metadata.template.json` is the source of truth for the static fields (name, description, identifier, author, license). The top-level `metadata.json` is regenerated from this template on every run — do not hand-edit it; edit the template and re-run `package.py`. Note however that the script overwrites the `versions` array with `[new] + existing`, so historical entries persist across regenerations.
 
-### File Structure
-- Keep symbols organized in single `.kicad_sym` file per library
-- Group related footprints in dedicated `.pretty` directories
-- Ensure 3D models are properly linked to footprints
-- Maintain consistent naming across symbol/footprint/3D model triplets
+The download URL is hardcoded to `https://github.com/yvolodym/kicad-library/releases/download/v{VERSION}/yvolodym-kicad-addon.zip` — i.e., the GitHub release tag must be `v<version>` (with the `v` prefix), even though `package.py` itself takes the version without it.
+
+### GitHub Actions (`.github/workflows/release.yml`)
+
+Manually triggered via `workflow_dispatch` ("Release Addon" → Run workflow → enter version). The workflow runs `package.py`, commits the updated `metadata.json` back to the dispatched branch, then creates a `v<version>` tag and GitHub release with the zip attached. Needs `permissions: contents: write` (already set). Push goes to `${{ github.ref_name }}`, so it works regardless of whether the default branch is `main` or `master`.
+
+### GitLab metadata submission
+
+`release-kicad-addons.md` describes the manual GitLab step: fork `gitlab.com/kicad/addons/metadata`, create folder `packages/com.github.yvolodym.kicad-libraries/`, and submit `metadata.json` plus `resources/icon.png` via merge request.

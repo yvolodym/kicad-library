@@ -1896,7 +1896,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "MOUDLE-SEEEDUINO-XIAO-ESP32C3"
+	(symbol "MODULE-SEEEDUINO-XIAO-ESP32C3"
 		(pin_names
 			(offset 1.016)
 		)
@@ -1912,7 +1912,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "MOUDLE-SEEEDUINO-XIAO-ESP32C3"
+		(property "Value" "MODULE-SEEEDUINO-XIAO-ESP32C3"
 			(at -21.59 13.97 0)
 			(effects
 				(font
@@ -1921,7 +1921,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "yvolodym:MOUDLE-SEEEDUINO-SMD-2.54-21X17.8MM"
+		(property "Footprint" "PCM_yvolodym:MODULE-SEEEDUINO-XIAO-ESP32C3"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1949,7 +1949,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "MOUDLE-SEEEDUINO-XIAO-ESP32C3_0_0"
+		(symbol "MODULE-SEEEDUINO-XIAO-ESP32C3_0_0"
 			(polyline
 				(pts
 					(xy -21.59 13.97) (xy 20.32 13.97)
@@ -2638,7 +2638,7 @@
 				)
 			)
 		)
-		(property "Footprint" "yvolodym:Switch"
+		(property "Footprint" "PCM_yvolodym:Switch"
 			(at -0.254 2.794 0)
 			(effects
 				(font

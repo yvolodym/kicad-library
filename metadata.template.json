@@ -2,7 +2,7 @@
     "$schema": "https://go.kicad.org/pcm/schemas/v1",
     "name": "Electrical Library",
     "description": "This library contains KiCad components that were needed but missing in the author's design work.",
-    "description_full": "This library contains KiCad symbols, footprints, and 3D models for various electronic components that were needed but missing in the author's daily design work. The components are created to fill gaps in existing libraries and provide reliable, well-designed parts for PCB design projects.",
+    "description_full": "This library contains KiCad symbols and footprints for various electronic components that were needed but missing in the author's daily design work. The components are created to fill gaps in existing libraries and provide reliable, well-designed parts for PCB design projects.",
     "identifier": "com.github.yvolodym.kicad-libraries",
     "type": "library",
     "author": {
