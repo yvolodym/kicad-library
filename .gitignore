@@ -31,3 +31,7 @@ fp-info-cache
 # PCM build files
 build
 yvolodym-kicad-addon.zip
+
+kicad-library-backups/
+
+fp-info-cache
