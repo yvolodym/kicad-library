@@ -14,12 +14,12 @@ ausgeliefert.
 | --------------------------------- | ---------------------------------------------------------- | --------- |
 | `8205A`                           | _stock_ `Package_TO_SOT_SMD:SOT-23-6`                      | Dual-N-Kanal-MOSFET, [Datenblatt](https://www.umw-ic.com/static/pdf/17bbbd598f6f936a3c6d46378372fe52.pdf) |
 | `CH340B`                          | _stock_ `Package_SO:JEITA_SOIC-16_3.9x9.9mm_P1.27mm`       | USB-zu-Seriell-Wandler |
-| `ESP32-WROVER-IB`                 | `PCM_yvolodym:ESP32-WROVER-B`                              | Espressif WiFi/BT-Modul |
+| `ESP32-WROVER-IB`                 | `PCM_yvolodym:ESP32-WROVER-IB`                             | Espressif WiFi/BT-Modul |
 | `Joystick_Analog`                 | `PCM_yvolodym:Joystick_Analog`                             | Generischer analoger Joystick |
 | `Joystick_PS5`                    | `PCM_yvolodym:Joystick_PS5`                                | Alps [RKJXV122400R](https://tech.alpsalpine.com/e/products/detail/RKJXV122400R/) (PS5-Style) |
 | `MODULE-SEEEDUINO-XIAO-ESP32C3`   | `PCM_yvolodym:MODULE-SEEEDUINO-XIAO-ESP32C3`               | Seeed Studio XIAO ESP32-C3 Board |
 | `NCR18650B`                       | `PCM_yvolodym:NCR18650B`                                   | Panasonic 18650-Zellenhalter-Layout |
-| `Switch small`                    | `PCM_yvolodym:Switch`                                      | Kleiner Taster |
+| `Switch_Small`                    | `PCM_yvolodym:Switch`                                      | Kleiner Taster |
 
 ## Installation
 

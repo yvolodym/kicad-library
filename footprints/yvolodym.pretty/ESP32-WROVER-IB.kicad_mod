@@ -1,4 +1,4 @@
-(footprint "ESP32-WROVER-B"
+(footprint "ESP32-WROVER-IB"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -15,7 +15,7 @@
 			)
 		)
 	)
-	(property "Value" "ESP32-WROVER-B"
+	(property "Value" "ESP32-WROVER-IB"
 		(at 8.9 -33.5 0)
 		(unlocked yes)
 		(layer "F.Fab")

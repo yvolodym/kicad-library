@@ -40,7 +40,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Dual N-channel MOSFET, battery protection"
 			(at 0 0 0)
 			(effects
 				(font
@@ -63,14 +63,6 @@
 			)
 		)
 		(symbol "8205A_1_1"
-			(text "-"
-				(at 0 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
 			(pin bidirectional line
 				(at -7.62 -3.81 0)
 				(length 2.54)
@@ -89,7 +81,7 @@
 					)
 				)
 			)
-			(pin output line
+			(pin passive line
 				(at -7.62 -7.62 0)
 				(length 2.54)
 				(name "D1"
@@ -143,7 +135,7 @@
 					)
 				)
 			)
-			(pin output line
+			(pin passive line
 				(at 7.62 -7.62 180)
 				(length 2.54)
 				(name "D2"
@@ -270,10 +262,10 @@
 					)
 				)
 			)
-			(pin input line
+			(pin output line
 				(at -8.89 -6.35 0)
 				(length 2.54)
-				(name "TXG"
+				(name "TXD"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -378,10 +370,10 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin no_connect line
 				(at -8.89 -21.59 0)
 				(length 2.54)
-				(name "NC."
+				(name "NC"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -563,7 +555,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_yvolodym:ESP32-WROVER-B"
+		(property "Footprint" "PCM_yvolodym:ESP32-WROVER-IB"
 			(at 0 0 0)
 			(effects
 				(font
@@ -649,7 +641,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin input line
 				(at -11.43 -6.35 0)
 				(length 2.54)
 				(name "EN"
@@ -667,7 +659,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin input line
 				(at -11.43 -7.62 0)
 				(length 2.54)
 				(name "SENSOR_VP"
@@ -685,7 +677,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin input line
 				(at -11.43 -8.89 0)
 				(length 2.54)
 				(name "SENSOR_VN"
@@ -703,7 +695,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin input line
 				(at -11.43 -10.16 0)
 				(length 2.54)
 				(name "GPIO34"
@@ -721,7 +713,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin input line
 				(at -11.43 -11.43 0)
 				(length 2.54)
 				(name "GPIO35"
@@ -1030,7 +1022,7 @@
 			(pin bidirectional line
 				(at 11.43 -7.62 180)
 				(length 2.54)
-				(name "U0TDX"
+				(name "U0TXD"
 					(effects
 						(font
 							(size 0.762 0.762)
@@ -1048,7 +1040,7 @@
 			(pin bidirectional line
 				(at 11.43 -8.89 180)
 				(length 2.54)
-				(name "U0RDX"
+				(name "U0RXD"
 					(effects
 						(font
 							(size 0.762 0.762)
@@ -1225,7 +1217,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin bidirectional line
 				(at 11.43 -25.4 180)
 				(length 2.54)
 				(name "SDO/SD0"
@@ -2376,7 +2368,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin power_in line
 				(at 24.13 11.43 180)
 				(length 2.54)
 				(name "5V"
@@ -2394,7 +2386,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin power_in line
 				(at 24.13 7.62 180)
 				(length 2.54)
 				(name "GND"
@@ -2412,7 +2404,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin power_out line
 				(at 24.13 3.81 180)
 				(length 2.54)
 				(name "3V3"
@@ -2509,7 +2501,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(property "Reference" "U"
+		(property "Reference" "BT"
 			(at 0 4.572 0)
 			(effects
 				(font
@@ -2517,7 +2509,7 @@
 				)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "NCR18650B"
 			(at 0 0 0)
 			(effects
 				(font
@@ -2579,10 +2571,10 @@
 			)
 		)
 		(symbol "NCR18650B_1_1"
-			(pin output line
+			(pin passive line
 				(at -2.54 0 0)
 				(length 2.54)
-				(name ""
+				(name "-"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2597,10 +2589,10 @@
 					)
 				)
 			)
-			(pin input line
+			(pin power_out line
 				(at 3.81 0 180)
 				(length 2.54)
-				(name ""
+				(name "+"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2618,11 +2610,11 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "Switch small"
+	(symbol "Switch_Small"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(property "Reference" "U"
+		(property "Reference" "SW"
 			(at 0 0 0)
 			(effects
 				(font
@@ -2630,7 +2622,7 @@
 				)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "Switch_Small"
 			(at 0 0 0)
 			(effects
 				(font
@@ -2665,7 +2657,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "Switch small_1_1"
+		(symbol "Switch_Small_1_1"
 			(circle
 				(center -2.286 -2.54)
 				(radius 0.508)

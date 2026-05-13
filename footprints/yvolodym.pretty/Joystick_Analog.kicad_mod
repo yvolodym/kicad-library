@@ -126,17 +126,6 @@
 		)
 		(fill no)
 		(layer "Eco1.User")
-		(uuid "cabc8ba3-f5fb-4e00-a312-a4f791829cce")
-	)
-	(fp_circle
-		(center -10.014999 -2.376034)
-		(end -9.545099 -2.376034)
-		(stroke
-			(width 0.2)
-			(type solid)
-		)
-		(fill no)
-		(layer "Eco1.User")
 		(uuid "e4db4569-486a-4533-9c3e-3f0feb87eec3")
 	)
 	(fp_circle
@@ -149,17 +138,6 @@
 		(fill no)
 		(layer "Eco1.User")
 		(uuid "32cc0953-1c75-4a42-a15d-7f5bba9e0281")
-	)
-	(fp_circle
-		(center -10.014999 -2.376034)
-		(end -9.075199 -2.376034)
-		(stroke
-			(width 0.2)
-			(type solid)
-		)
-		(fill no)
-		(layer "Eco1.User")
-		(uuid "394cca85-e643-485b-8ae3-154b1782a343")
 	)
 	(fp_circle
 		(center -10.014999 -2.376034)
@@ -192,17 +170,6 @@
 		)
 		(fill no)
 		(layer "Eco1.User")
-		(uuid "71bc7526-0e5e-447d-8ca4-12eeaa81e50b")
-	)
-	(fp_circle
-		(center -10.014999 0.163966)
-		(end -9.545099 0.163966)
-		(stroke
-			(width 0.2)
-			(type solid)
-		)
-		(fill no)
-		(layer "Eco1.User")
 		(uuid "868365c4-00e6-4a2a-9444-208eef7d8bf6")
 	)
 	(fp_circle
@@ -215,17 +182,6 @@
 		(fill no)
 		(layer "Eco1.User")
 		(uuid "b6e9f17a-2c71-41db-8d27-a097149d36f6")
-	)
-	(fp_circle
-		(center -10.014999 0.163966)
-		(end -9.075199 0.163966)
-		(stroke
-			(width 0.2)
-			(type solid)
-		)
-		(fill no)
-		(layer "Eco1.User")
-		(uuid "0a4815ce-f1ef-488a-81b7-42ea8f7ca2f6")
 	)
 	(fp_circle
 		(center -10.014999 0.163966)
@@ -258,17 +214,6 @@
 		)
 		(fill no)
 		(layer "Eco1.User")
-		(uuid "59bc7985-1ca3-452d-87ff-9d99decf953e")
-	)
-	(fp_circle
-		(center -10.014999 2.703966)
-		(end -9.545099 2.703966)
-		(stroke
-			(width 0.2)
-			(type solid)
-		)
-		(fill no)
-		(layer "Eco1.User")
 		(uuid "7e21baf0-7e9f-4a76-a582-f8abc5914671")
 	)
 	(fp_circle
@@ -281,17 +226,6 @@
 		(fill no)
 		(layer "Eco1.User")
 		(uuid "b43d92c8-6aec-4687-bd45-c8aec79eac95")
-	)
-	(fp_circle
-		(center -10.014999 2.703966)
-		(end -9.075199 2.703966)
-		(stroke
-			(width 0.2)
-			(type solid)
-		)
-		(fill no)
-		(layer "Eco1.User")
-		(uuid "1d305015-9217-4ca1-a2c3-368dedd2e863")
 	)
 	(fp_circle
 		(center -10.014999 2.703966)
@@ -324,17 +258,6 @@
 		)
 		(fill no)
 		(layer "Eco1.User")
-		(uuid "00080ae5-8e3b-4db4-a23a-c40c4b40d526")
-	)
-	(fp_circle
-		(center -7.999999 -6.296034)
-		(end -7.270455 -6.296034)
-		(stroke
-			(width 0.2)
-			(type solid)
-		)
-		(fill no)
-		(layer "Eco1.User")
 		(uuid "e5104409-e741-43b5-9c7a-52d485965df4")
 	)
 	(fp_circle
@@ -347,17 +270,6 @@
 		(fill no)
 		(layer "Eco1.User")
 		(uuid "04df0c87-3ce7-4183-be17-c89db9f0b74c")
-	)
-	(fp_circle
-		(center -7.999999 -6.296034)
-		(end -6.806199 -6.296034)
-		(stroke
-			(width 0.2)
-			(type solid)
-		)
-		(fill no)
-		(layer "Eco1.User")
-		(uuid "4a54d508-3c62-4329-8290-dbc62c4b6c34")
 	)
 	(fp_circle
 		(center -7.999999 -6.296034)
@@ -390,17 +302,6 @@
 		)
 		(fill no)
 		(layer "Eco1.User")
-		(uuid "1109a1e4-2172-4724-bdd5-86ae6c8f20a3")
-	)
-	(fp_circle
-		(center -7.999999 6.638766)
-		(end -7.270455 6.638766)
-		(stroke
-			(width 0.2)
-			(type solid)
-		)
-		(fill no)
-		(layer "Eco1.User")
 		(uuid "af7e1307-f559-42a1-bdc2-bdf0ae36f7af")
 	)
 	(fp_circle
@@ -413,17 +314,6 @@
 		(fill no)
 		(layer "Eco1.User")
 		(uuid "1976184f-6bbc-4d0c-a44d-c2aee61968dd")
-	)
-	(fp_circle
-		(center -7.999999 6.638766)
-		(end -6.806199 6.638766)
-		(stroke
-			(width 0.2)
-			(type solid)
-		)
-		(fill no)
-		(layer "Eco1.User")
-		(uuid "610892ad-8ea7-4ffa-946b-2454582ca0ad")
 	)
 	(fp_circle
 		(center -7.999999 6.638766)
@@ -456,17 +346,6 @@
 		)
 		(fill no)
 		(layer "Eco1.User")
-		(uuid "06e56e74-def5-4f5e-b02a-1e618680f8b0")
-	)
-	(fp_circle
-		(center -3.174999 -12.953)
-		(end -2.705099 -12.953)
-		(stroke
-			(width 0.2)
-			(type solid)
-		)
-		(fill no)
-		(layer "Eco1.User")
 		(uuid "f63a3477-aa56-4a25-b93a-bc555addf7da")
 	)
 	(fp_circle
@@ -479,17 +358,6 @@
 		(fill no)
 		(layer "Eco1.User")
 		(uuid "05ce5c76-4296-48bf-bb4d-a95d1c4570b7")
-	)
-	(fp_circle
-		(center -3.174999 -12.953)
-		(end -2.235199 -12.953)
-		(stroke
-			(width 0.2)
-			(type solid)
-		)
-		(fill no)
-		(layer "Eco1.User")
-		(uuid "2227e386-7979-4b0a-b205-79ecd753b964")
 	)
 	(fp_circle
 		(center -3.174999 -12.953)
@@ -522,17 +390,6 @@
 		)
 		(fill no)
 		(layer "Eco1.User")
-		(uuid "24fe1c9b-19d1-4dfe-b09b-5bfa2078d767")
-	)
-	(fp_circle
-		(center -3.174999 -8)
-		(end -2.705099 -8)
-		(stroke
-			(width 0.2)
-			(type solid)
-		)
-		(fill no)
-		(layer "Eco1.User")
 		(uuid "36c2206d-5e50-466a-a7ff-bae44b6f2a89")
 	)
 	(fp_circle
@@ -545,17 +402,6 @@
 		(fill no)
 		(layer "Eco1.User")
 		(uuid "4bd86a2a-8cf9-4605-a003-2ed1ae4dfe7d")
-	)
-	(fp_circle
-		(center -3.174999 -8)
-		(end -2.235199 -8)
-		(stroke
-			(width 0.2)
-			(type solid)
-		)
-		(fill no)
-		(layer "Eco1.User")
-		(uuid "7c72d820-ed25-4353-b742-36a3a2d36cc2")
 	)
 	(fp_circle
 		(center -3.174999 -8)
@@ -588,17 +434,6 @@
 		)
 		(fill no)
 		(layer "Eco1.User")
-		(uuid "1f5fdc47-fbf3-410c-9079-6f4da415f33c")
-	)
-	(fp_circle
-		(center -2.539999 9.683966)
-		(end -2.070099 9.683966)
-		(stroke
-			(width 0.2)
-			(type solid)
-		)
-		(fill no)
-		(layer "Eco1.User")
 		(uuid "65c98e78-7639-4c55-868a-62f3e2b3bd31")
 	)
 	(fp_circle
@@ -611,17 +446,6 @@
 		(fill no)
 		(layer "Eco1.User")
 		(uuid "da913a14-3f5b-4c52-8bbf-375f5c30f905")
-	)
-	(fp_circle
-		(center -2.539999 9.683966)
-		(end -1.600199 9.683966)
-		(stroke
-			(width 0.2)
-			(type solid)
-		)
-		(fill no)
-		(layer "Eco1.User")
-		(uuid "0d2aa0a7-2869-49dc-afc8-9a22f43c9499")
 	)
 	(fp_circle
 		(center -2.539999 9.683966)
@@ -654,17 +478,6 @@
 		)
 		(fill no)
 		(layer "Eco1.User")
-		(uuid "27561486-3163-4529-9c5c-285bb846513a")
-	)
-	(fp_circle
-		(center 0.000001 9.683966)
-		(end 0.469901 9.683966)
-		(stroke
-			(width 0.2)
-			(type solid)
-		)
-		(fill no)
-		(layer "Eco1.User")
 		(uuid "29389442-f982-4664-a292-f69d7d4945d1")
 	)
 	(fp_circle
@@ -677,17 +490,6 @@
 		(fill no)
 		(layer "Eco1.User")
 		(uuid "e47c4e36-21d6-4a2a-b968-1f1e6b9219cf")
-	)
-	(fp_circle
-		(center 0.000001 9.683966)
-		(end 0.939801 9.683966)
-		(stroke
-			(width 0.2)
-			(type solid)
-		)
-		(fill no)
-		(layer "Eco1.User")
-		(uuid "a2ad5b4b-0541-4ace-bd77-8d981657186d")
 	)
 	(fp_circle
 		(center 0.000001 9.683966)
@@ -720,17 +522,6 @@
 		)
 		(fill no)
 		(layer "Eco1.User")
-		(uuid "11fed36e-3df1-41c7-8138-02e8157f0dbc")
-	)
-	(fp_circle
-		(center 2.540001 9.683966)
-		(end 3.009901 9.683966)
-		(stroke
-			(width 0.2)
-			(type solid)
-		)
-		(fill no)
-		(layer "Eco1.User")
 		(uuid "4391df90-f0e8-4ee8-9ab2-74121b86c9ae")
 	)
 	(fp_circle
@@ -743,17 +534,6 @@
 		(fill no)
 		(layer "Eco1.User")
 		(uuid "540e3718-9a32-4266-9918-a8371516c455")
-	)
-	(fp_circle
-		(center 2.540001 9.683966)
-		(end 3.479801 9.683966)
-		(stroke
-			(width 0.2)
-			(type solid)
-		)
-		(fill no)
-		(layer "Eco1.User")
-		(uuid "088bf9d6-cabb-47ad-8c7e-40634a3668e4")
 	)
 	(fp_circle
 		(center 2.540001 9.683966)
@@ -786,17 +566,6 @@
 		)
 		(fill no)
 		(layer "Eco1.User")
-		(uuid "9a0948b2-5fac-4ebb-bb27-6d49ba166898")
-	)
-	(fp_circle
-		(center 3.175001 -12.953)
-		(end 3.644901 -12.953)
-		(stroke
-			(width 0.2)
-			(type solid)
-		)
-		(fill no)
-		(layer "Eco1.User")
 		(uuid "f75e405a-55b6-4156-b25d-d01b899a7761")
 	)
 	(fp_circle
@@ -809,17 +578,6 @@
 		(fill no)
 		(layer "Eco1.User")
 		(uuid "96276c0a-066b-4cce-a1e4-5a83d94f46ee")
-	)
-	(fp_circle
-		(center 3.175001 -12.953)
-		(end 4.114801 -12.953)
-		(stroke
-			(width 0.2)
-			(type solid)
-		)
-		(fill no)
-		(layer "Eco1.User")
-		(uuid "5c8afde0-853b-49a4-908e-b62c4f2bbd88")
 	)
 	(fp_circle
 		(center 3.175001 -12.953)
@@ -852,17 +610,6 @@
 		)
 		(fill no)
 		(layer "Eco1.User")
-		(uuid "1a36de0c-0cf3-4ef1-b050-af1ca660ee41")
-	)
-	(fp_circle
-		(center 3.175001 -8)
-		(end 3.644901 -8)
-		(stroke
-			(width 0.2)
-			(type solid)
-		)
-		(fill no)
-		(layer "Eco1.User")
 		(uuid "a0401492-0a36-434d-82ad-01b0728e9fcf")
 	)
 	(fp_circle
@@ -875,17 +622,6 @@
 		(fill no)
 		(layer "Eco1.User")
 		(uuid "c4a7d2cb-9aec-4fc9-9faf-6c0f0b83e523")
-	)
-	(fp_circle
-		(center 3.175001 -8)
-		(end 4.114801 -8)
-		(stroke
-			(width 0.2)
-			(type solid)
-		)
-		(fill no)
-		(layer "Eco1.User")
-		(uuid "28b34db4-3e45-4dd1-bc98-6ec66826c5ea")
 	)
 	(fp_circle
 		(center 3.175001 -8)
@@ -918,17 +654,6 @@
 		)
 		(fill no)
 		(layer "Eco1.User")
-		(uuid "55f65754-df58-48f3-9849-013321ce872e")
-	)
-	(fp_circle
-		(center 7.500001 -6.296034)
-		(end 8.229545 -6.296034)
-		(stroke
-			(width 0.2)
-			(type solid)
-		)
-		(fill no)
-		(layer "Eco1.User")
 		(uuid "861af640-fd05-47b2-ad54-324b4f9aa0a7")
 	)
 	(fp_circle
@@ -941,17 +666,6 @@
 		(fill no)
 		(layer "Eco1.User")
 		(uuid "eb7de61f-b2e2-4054-9762-65ddc547a01f")
-	)
-	(fp_circle
-		(center 7.500001 -6.296034)
-		(end 8.693801 -6.296034)
-		(stroke
-			(width 0.2)
-			(type solid)
-		)
-		(fill no)
-		(layer "Eco1.User")
-		(uuid "422ac626-27e9-4310-8c44-664fe730a1e0")
 	)
 	(fp_circle
 		(center 7.500001 -6.296034)
@@ -984,17 +698,6 @@
 		)
 		(fill no)
 		(layer "Eco1.User")
-		(uuid "6eef5a0d-1515-4983-89b1-6a5d7cdbf9a3")
-	)
-	(fp_circle
-		(center 7.500001 6.638766)
-		(end 8.229545 6.638766)
-		(stroke
-			(width 0.2)
-			(type solid)
-		)
-		(fill no)
-		(layer "Eco1.User")
 		(uuid "c3cda71a-a790-4f07-921c-1fd8a088abf6")
 	)
 	(fp_circle
@@ -1007,17 +710,6 @@
 		(fill no)
 		(layer "Eco1.User")
 		(uuid "64af4809-9088-45b5-a11d-09b323845cc0")
-	)
-	(fp_circle
-		(center 7.500001 6.638766)
-		(end 8.693801 6.638766)
-		(stroke
-			(width 0.2)
-			(type solid)
-		)
-		(fill no)
-		(layer "Eco1.User")
-		(uuid "22fec010-aaf0-4ef9-99cc-b0d7db369ce6")
 	)
 	(fp_circle
 		(center 7.500001 6.638766)
