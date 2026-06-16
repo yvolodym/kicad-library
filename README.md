@@ -19,7 +19,7 @@ ausgeliefert.
 | `Joystick_PS5`                    | `PCM_yvolodym:Joystick_PS5`                                | Alps [RKJXV122400R](https://tech.alpsalpine.com/e/products/detail/RKJXV122400R/) (PS5-Style) |
 | `MODULE-SEEEDUINO-XIAO-ESP32C3`   | `PCM_yvolodym:MODULE-SEEEDUINO-XIAO-ESP32C3`               | Seeed Studio XIAO ESP32-C3 Board |
 | `NCR18650B`                       | `PCM_yvolodym:NCR18650B`                                   | Panasonic 18650-Zellenhalter-Layout |
-| `Switch_Small`                    | `PCM_yvolodym:Switch`                                      | Kleiner Taster |
+| `Switch_Small`                    | `PCM_yvolodym:Switch_Small`                                | Kleiner Taster |
 
 ## Installation
 

@@ -40,7 +40,7 @@
 			)
 		)
 	)
-	(property "Description" ""
+	(property "Description" "Panasonic NCR18650B Li-ion cell holder footprint"
 		(at 0.15 -0.35 0)
 		(unlocked yes)
 		(layer "F.Fab")

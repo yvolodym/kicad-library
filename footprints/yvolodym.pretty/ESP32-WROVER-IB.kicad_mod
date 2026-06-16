@@ -27,7 +27,7 @@
 			)
 		)
 	)
-	(property "Datasheet" ""
+	(property "Datasheet" "https://www.espressif.com/sites/default/files/documentation/esp32-wrover-b_datasheet_en.pdf"
 		(at 25.03 -76.37 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -40,7 +40,7 @@
 			)
 		)
 	)
-	(property "Description" ""
+	(property "Description" "Espressif ESP32-WROVER-IB Wi-Fi/Bluetooth module with IPEX antenna connector"
 		(at 25.03 -76.37 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -53,7 +53,7 @@
 			)
 		)
 	)
-	(attr through_hole)
+	(attr smd)
 	(fp_rect
 		(start 0.03 -30.27)
 		(end 18.03 1.13)

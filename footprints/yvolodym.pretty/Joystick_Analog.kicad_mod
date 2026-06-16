@@ -40,7 +40,7 @@
 			)
 		)
 	)
-	(property "Description" ""
+	(property "Description" "Analog thumb joystick module (2-axis + push button)"
 		(at 0.000001 1.561971 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -722,35 +722,16 @@
 		(layer "Eco1.User")
 		(uuid "dff99f64-3121-434c-aab1-64995e79b2d4")
 	)
-	(fp_line
+	(fp_rect
 		(start -5.375 -15.5)
-		(end 5.375 -15.5)
+		(end 5.4 -11.79)
 		(stroke
 			(width 0.05)
 			(type default)
 		)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "74d3e981-0a8d-4c90-ac04-911ecf1e8eb9")
-	)
-	(fp_line
-		(start -5.349999 -15.5)
-		(end -5.349999 -11.810059)
-		(stroke
-			(width 0.05)
-			(type default)
-		)
-		(layer "F.CrtYd")
-		(uuid "ef983623-4e56-4baf-8265-89d45c995a84")
-	)
-	(fp_line
-		(start 5.375 -15.5)
-		(end 5.400001 -11.78728)
-		(stroke
-			(width 0.05)
-			(type default)
-		)
-		(layer "F.CrtYd")
-		(uuid "1be2568c-1ee6-48f2-a7a9-60bc2a194632")
 	)
 	(fp_circle
 		(center 0 0)

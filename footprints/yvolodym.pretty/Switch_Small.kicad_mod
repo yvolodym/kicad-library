@@ -1,4 +1,4 @@
-(footprint "Switch"
+(footprint "Switch_Small"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -15,7 +15,7 @@
 			)
 		)
 	)
-	(property "Value" "Switch"
+	(property "Value" "Switch_Small"
 		(at -6.35 -5.08 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -40,7 +40,7 @@
 			)
 		)
 	)
-	(property "Description" ""
+	(property "Description" "Through-hole tactile / slide switch footprint"
 		(at 0 -2.54 0)
 		(unlocked yes)
 		(layer "F.Fab")
