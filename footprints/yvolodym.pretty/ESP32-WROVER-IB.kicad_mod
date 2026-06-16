@@ -371,5 +371,16 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "1e51e6a1-bf3f-4050-a17e-d3782c245a20")
 	)
+	(model "${KICAD9_3RD_PARTY}/3dmodels/com_github_yvolodym_kicad-libraries/yvolodym.3dshapes/ESP32-WROVER-IB.step"
+		(offset
+			(xyz -0.25 -1.095 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 	(embedded_fonts no)
 )

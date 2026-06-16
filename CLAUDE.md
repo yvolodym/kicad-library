@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-A personal KiCad library distributed as a KiCad Package Manager (PCM) addon. It bundles symbols and footprints for parts the author needed but did not find in stock KiCad libraries. Targets KiCad 9.0.0+. The `3dmodels/yvolodym.3dshapes/` directory exists but is currently empty — no footprint references a 3D model.
+A personal KiCad library distributed as a KiCad Package Manager (PCM) addon. It bundles symbols and footprints for parts the author needed but did not find in stock KiCad libraries. Targets KiCad 9.0.0+. The `3dmodels/yvolodym.3dshapes/` directory holds STEP models for the footprints that have one (currently `ESP32-WROVER-IB` and `Joystick_PS5`); the remaining footprints reference no 3D model.
 
 ## Documentation languages
 
@@ -16,9 +16,12 @@ There is **one** library, not many — a single triplet of files keyed off the `
 
 - `symbols/yvolodym.kicad_sym` — all symbols live in this one file.
 - `footprints/yvolodym.pretty/` — all footprints (`.kicad_mod`) live here.
-- `3dmodels/yvolodym.3dshapes/` — slot for `.step`/`.wrl` files (currently empty).
+- `3dmodels/yvolodym.3dshapes/` — `.step`/`.wrl` files, named to match their footprint.
 
 The library nickname for symbols' `Footprint` property is `PCM_yvolodym:` — that is the auto-registered nickname when KiCad installs the addon via PCM. When adding a part, keep symbol/footprint/3D-model names aligned and prefix the symbol's footprint reference with `PCM_yvolodym:`.
+
+3D models are referenced from footprints via the PCM third-party path, **not** the `PCM_yvolodym:` nickname:
+`${KICAD9_3RD_PARTY}/3dmodels/com_github_yvolodym_kicad-libraries/yvolodym.3dshapes/<name>.step`. The `com_github_yvolodym_kicad-libraries` segment is the package `identifier` (from `metadata.template.json`) with dots replaced by underscores; this is the folder PCM extracts 3D models into on install. Model `offset`/`rotate` usually need fine-tuning in KiCad's 3D viewer after adding a new model.
 
 ## Release Pipeline
 

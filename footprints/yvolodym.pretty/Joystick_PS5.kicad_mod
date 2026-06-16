@@ -1402,5 +1402,16 @@
 			"ffab11e6-0afb-45fe-bcca-18ad1f2bc92e"
 		)
 	)
+	(model "${KICAD9_3RD_PARTY}/3dmodels/com_github_yvolodym_kicad-libraries/yvolodym.3dshapes/Joystick_PS5.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 	(embedded_fonts no)
 )
