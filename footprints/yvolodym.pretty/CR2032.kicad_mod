@@ -1,4 +1,4 @@
-(footprint "CR3220"
+(footprint "CR2032"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -15,7 +15,7 @@
 			)
 		)
 	)
-	(property "Value" "CR3220"
+	(property "Value" "CR2032"
 		(at 0 1 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -225,23 +225,19 @@
 			)
 		)
 	)
-	(pad "1" thru_hole roundrect
-		(at 0 -9.5)
-		(size 3 4)
-		(drill 0.8)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(roundrect_rratio 0.15)
-		(uuid "8f6f68f5-101a-4bfc-ad62-cd528f6ff91b")
-	)
-	(pad "2" thru_hole roundrect
+	(pad "1" smd roundrect
 		(at 0 13.5)
 		(size 3 3)
-		(drill 0.8)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.15)
 		(uuid "7ee2bec9-1bfc-4d70-a94a-c8ceea7b69d8")
+	)
+	(pad "2" smd roundrect
+		(at 0 -9.5)
+		(size 3 4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "8f6f68f5-101a-4bfc-ad62-cd528f6ff91b")
 	)
 	(embedded_fonts no)
 )
